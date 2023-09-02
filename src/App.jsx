@@ -38,8 +38,8 @@ function App() {
           <Button value={"+10"} onClick={ handleClicks} >{<ChevronsUp />}</Button>
           <Button value={"reset"} onClick={ handleClicks} >{<RotateCcw/>}</Button>
           <Button value={"random"} onClick={ handleClicks} >{<Hash/>}</Button>
-          <Button value={"minus"} onClick={ handleClicks} >{<ChevronsDown />}</Button>
-          <Button value={"-10"} onClick={ handleClicks}>{<ChevronDown />}</Button>
+          <Button value={"-10"} onClick={ handleClicks} >{<ChevronsDown />}</Button>
+          <Button value={"minus"} onClick={ handleClicks}>{<ChevronDown />}</Button>
            
           </div>
       </div>
